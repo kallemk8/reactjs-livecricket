@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-
-function App() {
+import Login from './components/login';
+import { HashRouter, Route, Switch } from 'react-router-dom'
+import PrivateRoute from './components/Privaterote';
+import ThemeRoutes from './router'
+class App extends Component {
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container"> 
+    
+      <HashRouter>
+        <Switch>
+          <Route path='/login' exact name="Login"  component ={Login}  />
+          {ThemeRoutes.map((prop, key) => {
+            return <PrivateRoute path={prop.path} key={key} component={prop.component} />;
+          })}
+        </Switch>
+      </HashRouter>
     </div>
-  );
+  )};
 }
-
 export default App;
