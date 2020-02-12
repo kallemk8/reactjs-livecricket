@@ -13,7 +13,7 @@ class App extends Component {
         <Switch>
           <Route path='/login' exact name="Login"  component ={Login}  />
           {ThemeRoutes.map((prop, key) => {
-            return <PrivateRoute path={prop.path} key={key} component={prop.component} />;
+            return <PrivateRoute exact path={prop.path} key={key} component={prop.component} />;
           })}
         </Switch>
       </HashRouter>
