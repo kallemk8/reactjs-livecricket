@@ -1,25 +1,38 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom'
+import { Container, Row, Col } from 'reactstrap';
+import { Navbar,  Nav, NavItem } from 'reactstrap';
 class Header extends Component {
     logoutuser = ()=>{
         localStorage.removeItem('token');
     }
     render(){
         return(
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                        <ul className="nav">
-                            <li className="nav-item"><Link className="nav-link" to ='/' >Home</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to ='/user' >Register</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to ='/users' >Users</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to ='/players' >Players</Link></li>
-                            
-                            <li className="nav-item float-right"><Link className="nav-link" onClick={()=>this.logoutuser()} to ='/login' >Logout</Link></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <Container >
+                <Row>
+                    <Col>
+                        <Navbar color="light" light expand="md">
+                            <Nav className="mr-auto" navbar>
+                                <NavItem>
+                                    <Link className="nav-link" to ='/' >Home</Link>
+                                </NavItem>
+                                <NavItem>
+                                    <Link className="nav-link" to ='/users' >Users</Link>
+                                </NavItem>
+                                <NavItem>
+                                    <Link className="nav-link" to ='/players' >Players</Link>
+                                </NavItem>
+                                <NavItem>
+                                    <Link className="nav-link" to ='/news' >News</Link>
+                                </NavItem>
+                                <NavItem>
+                                    <Link className="nav-link" onClick={()=>this.logoutuser()} to ='/login' >Logout</Link>
+                                </NavItem>
+                            </Nav>
+                        </Navbar>
+                    </Col>
+                </Row>
+            </Container>
         );
     }
 }

@@ -55,7 +55,7 @@ class User extends Component {
   render(){
   return (
     <div  className="row">
-        <div className="col-md-12 ">
+        <div className="col-md-8 offset-md-2 ">
             <div className="form-group text-center">
               <h2>Register</h2>
             </div>

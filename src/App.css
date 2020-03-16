@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+#right_side_background {
+  background:url('https://keenthemes.com/metronic/preview/react/demo1/media/bg/bg-4.jpg');
+  width: 100%;
+  background-size: cover;
+}
+#left_side_content {
+  padding:40px;
+}
+.kt-login__head{
+  font-size: 1rem;
+    font-weight: 500;
+    text-align: right;
+}
+.kt-login__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.kt-login__title{display: block;
+  text-align: center;
+  margin-bottom: 5rem;
+  text-decoration: none;}

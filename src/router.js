@@ -4,6 +4,8 @@ import Home from './components/home';
 
 import Players from './components/players/players';
 import Player from './components/players/player';
+import News from './components/News/news'
+import NewsView from './components/News/newsView'
 var ThemeRoutes = [
     {
       path: '/user',
@@ -28,6 +30,18 @@ var ThemeRoutes = [
       name: 'Add Players',
       icon: 'mdi mdi-comment-processing-outline',
       component: Player
+    },
+    {
+      path: '/news',
+      name: 'News',
+      icon: 'mdi mdi-comment-processing-outline',
+      component: News
+    },
+    {
+      path: '/news/view/:id',
+      name: 'View News',
+      icon: 'mdi mdi-comment-processing-outline',
+      component: NewsView
     },
     {
       path: '/',
