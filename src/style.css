@@ -1,0 +1,664 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 10px 0px 0px 0px;
+	background: #E3E6E3;
+}
+.onlybackground-color{
+	background: #fff;
+}
+.margintop15{
+	margin-top: 15px;
+}
+.heightlet{
+	font-size: 14px;
+	font-weight: bold;
+}
+.only-desktop{
+	display: block;
+}
+.fontsize14{
+	font-size: 14px !important;
+}
+.fontsize14 th, .fontsize14 td{
+	padding: 5px !important;
+}
+.only-mobile {
+	display: none;
+}
+.video_height{
+	height: 400px;
+}
+.slideshowads{
+	display: block;
+	position: fixed;
+	bottom: 0;
+	left: 30%;
+	margin-bottom: -15px;
+	z-index: 99;
+}
+@media (max-width: 768px){
+	.video_height{
+		height: inherit;
+	}
+	.slideshowads{
+		display: none;
+	}
+}
+.marginbottom15{
+	margin-bottom: 15px;
+}
+.marginleft15{
+	margin-left: 15px;
+}
+.marginright15{
+	margin-right: 15px;
+}
+.marginleft0{
+	margin-left: 0px;
+}
+.marginright0{
+	margin-right: 0px;
+}
+.paddingright0{
+	padding-right: 0px;
+}
+.paddingleft0{
+	padding-left: 0px;
+}
+.margin0{
+	margin:0px;
+}
+.holder{
+	background: #fff;
+	overflow: hidden;
+}
+
+a:hover{
+	text-decoration: none;
+}
+header .header {
+	background: rgba(237, 28, 36, 0.7);
+	display: block;
+	overflow: hidden;
+	padding: 3px 0px;
+}
+header .header h1.logo {
+	margin: 0px;
+	font-size: 28px;
+}
+header .header h1.logo a{
+	color:#fff; 
+	line-height: 40px;
+}
+header .header h1.logo img{
+    margin-left: 25px;
+    margin-top: -5px;
+}
+header .header .menu ul.comman-menu{
+	list-style: none;
+	padding: 10px 0px;
+	margin: 0px;
+	float: right;
+}
+header .header .menu ul.comman-menu li{
+	display: inline-block;
+	padding: 0px 12px;
+}
+
+header .header .menu ul.comman-menu li a{
+	font-size: 16px;
+	color: #fff;
+
+}
+header .header .menu ul.comman-menu li a:hover{
+	text-decoration: none;
+}
+header .live-match-list{
+	background: #fff;
+	padding: 10px;
+	overflow: hidden;
+	display: block;
+}
+
+header .live-match-list .short-score{
+	border-right: 1px solid #f5f5f5;
+	overflow: hidden;
+	display: block;
+	color: #000;
+}
+header .live-match-list .short-score.last{
+	border-right: 0px solid #000;
+}
+header .live-match-list .short-score .team-one {
+	padding-bottom: 5px;
+}
+header .live-match-list .short-score .team-one .team-name{
+	text-align: left;
+}
+header .live-match-list .short-score .team-one .team-score{
+	padding-left: 40px;
+}
+header .live-match-list .short-score .match-details {
+	color: #60ab59;
+	font-size: 14px;
+	padding-top: 5px;
+}
+header .live-match-list .more-live-matches {
+	float: right;
+	color: rgba(237, 28, 36, 0.7);
+	font-size: 12px;
+}
+.page-content {
+	margin-top:15px;
+}
+.right-sidebar ,  .content , .left-sidebar {
+	padding: 10px;
+	margin-bottom: 15px;
+	background: #fff;
+}
+.content, .match-before-content {
+	font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.sidebar-title{
+	font-size: 16px;
+	margin: 0px;
+	font-weight: bold;
+	/*text-align: center;*/
+}
+.latest-news-sidebar {
+	padding: 0px;
+	list-style: none;
+	margin-top: 15px;
+}
+.latest-news-sidebar li{
+	padding: 10px 5px;
+	font-size: 14px;
+	border-bottom: 1px solid #ecebeb;
+}
+.latest-news-sidebar li .time-remaing {
+	color: #999;
+	font-size: 13px;
+}
+.player-search {
+	margin-top: 15px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.search-input{
+	float: left;
+	width: 85%;
+}
+.search-input input{
+	width:96%;
+	padding: 6px;
+}
+.search-button {
+	width: 15%;
+	float: left;
+}
+.search-button-text {
+	background: rgba(237, 28, 36, 0.7);
+	display: inline-block;
+	padding: 8px;
+	border: none;
+	color: #fff;
+}
+.post {
+	margin-bottom: 15px;
+	border-bottom: 1px solid #f5f5f5;
+}
+.post .post-image img{
+	width: 100%;
+}
+.post .post-title{
+	padding: 20px 0px 10px 0px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.post .post-readmore {
+	padding: 5px 0px;
+	text-align: right;
+	color: rgba(237, 28, 36, 0.7);
+	display: block;
+	border-bottom: 1px solid #f5f5f5;
+}
+.paddingleft15{
+	padding-left: 15px;
+}
+.seriessecondtitle{
+	font-size: 20px;
+	font-weight: bold;
+}
+.score-card{
+	background: #fff;
+}
+@media (min-width: 768px){
+.overcompleted-design {
+	background:#E3E6E3;
+	border:15px solid #fff;
+}
+}
+@media (max-width: 768px){
+.overcompleted-design {
+	background:#E3E6E3;
+	border:3px solid #fff;
+}
+}
+.overcompleted-design td span.letterspace{
+	letter-spacing: 3px;
+}
+.overflowhidden{
+	    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.header-section {
+	background: #fff;
+	padding: 15px;
+	margin-top:15px;
+}
+.hour_with_mins{
+	font-size: 50px;
+	font-weight: bold;
+	color: #000;
+}
+.hour_with_mins span.match_time_sec{
+	font-size: 25px;
+}
+.header-section h1{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+.header-section .venue-details {
+	list-style: none;
+	padding: 0px;
+}
+.header-section .venue-details li{
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 13px;
+}
+.header-section .venue-details li:last-child{
+	padding: 0px;
+}
+.live-match-score{
+	padding: 0px 15px;
+}
+.batsman-on-pitch {
+	padding: 15px;
+}
+.batsman-on-pitch table.table thead{
+	background: #ddd;
+	padding: 5px;
+}
+.batsman-on-pitch table.table thead th{
+	padding: 2px;
+}
+.batsman-on-pitch table.table tbody tr{
+	padding: 5px;
+}
+.batsman-on-pitch table.table tbody td{
+	border: none;
+	padding: 6px 3px 6px 3px;
+}
+.table-lastwicketsetion thead th{
+	padding: 2px;
+
+}
+.table-lastwicketsetion tr{
+	padding: 0px;
+}
+.table-lastwicketsetion tr th{
+	border: none;
+}
+.table-lastwicketsetion th{
+	padding: 6px 3px 6px 3px;
+	border: none !important;
+}
+.table-lastwicketsetion tbody td{
+	padding: 6px 3px 6px 3px;
+	border: none;
+}
+
+.recent-balls .border-top-bottom{
+	border-top:1px solid #f5f5f5;
+	border-bottom:1px solid #f5f5f5;
+	padding: 5px;
+}
+.first-innings, .second-innings {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}
+.first-innings.comleted{
+	opacity: 0.7;
+	color: #555;
+	font-size: 18px;
+}
+.completed {
+	font-size: 18px;
+	color: #555;
+}
+#admin-page-conttent {
+
+}
+#admin-page-conttent .col-md-6{
+	background: #fff;
+}
+.schedule{
+	margin: 15px 0px;
+}
+.background-color{
+	background: #fff;
+	padding: 10px;
+}
+@media (min-width: 780px){
+.width50 {
+	width: 45px;
+}
+.width100{
+	width: 60px;
+}
+}
+h1.title{
+	font-size: 22px;
+	margin: 0px 0px 10px 0px;
+	font-weight: bold;
+}
+.match-result-completed {
+	font-size:16px; 
+	color: rgba(237, 28, 36, 0.7); 
+	font-weight:bold;
+	padding: 10px 0px;
+}
+.latest-news{
+	margin: 15px 0px;
+}
+.latest-news h1.title{
+	padding-left: 15px;
+}
+.latest-news .cricket-news{ 
+	overflow: hidden;
+	list-style: none;
+	padding: 0px;
+}
+.rating-heading{
+	background: #fff;
+	margin: 15px 0px 0px 0px;
+	padding-bottom: 15px;
+}
+	.selectedone{
+	background: #f5f5f5;
+	color: #000;
+}
+
+.latest-news .cricket-news h1{
+	font-size: 20px;
+	margin-top: 0px;
+}
+.latest-news .cricket-news li{
+	display: block;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.latest-news .cricket-news li .post-image{
+	width: 100%;
+
+}
+.latest-news .cricket-news li span{
+	font-size: 12px;
+	color: #999;
+}
+.series {
+	padding: 10px 0px;
+	border-bottom: 1px solid #f5f5f5;
+}
+.series h1{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.max-width{
+	max-width: 100%;
+}
+.flag-image {
+	margin-bottom: 15px;
+}
+.post-image-play-button {
+	background: url(../images/playbutton.png);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 9;
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 200px;
+	background-position: center;
+}
+.flag-image img{
+	min-height: 224px;
+}
+.videos-photos {
+	margin-top: 15px;
+}
+.videos-photos .photos{
+	padding: 0px;
+	list-style: none;
+}
+.videos-photos .photos li{ 
+	display: inline-block;
+	width: 24.5%;
+}
+.video-title {
+	padding:0px 5px 15px 5px;
+}
+ul.mini-links, ul.mini-links2 {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+}
+ul.mini-links li, ul.mini-links2 li { 
+	display:inline-block;
+	padding: 5px 15px;
+}
+ul.mini-links li:first-child, ul.mini-links2 li:first-child{
+	padding-left: 0px;
+}
+ul.mini-links li a, ul.mini-links2 li a{
+	color: #000;
+	font-weight: bold;
+}
+.commentry ul{
+	list-style: none;
+	padding:0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.commentry ul li{
+	padding: 10px 0px;
+	overflow: hidden;
+}
+.read-more-posts-ajax .read-more-ajax{    
+	padding: 10px;
+    display: block;
+    border: 1px solid rgba(255,255,255,0.8);
+    text-align: center;
+    margin-bottom: 15px;
+    color: #000;
+    background: rgba(255,255,255,0.8);
+}
+.player-image-with-title {
+	padding: 140px 0px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.personal-info {
+	padding: 20px 0px;
+	color: #000;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.player-mini-items {
+	padding: 10px 0px;
+}
+.player-mini-items b, .player-mini-items span{
+	width: 50%;
+}
+.about-profile-title {
+	font-size: 22px;
+	font-weight: bold;
+	color: #000;
+	padding-bottom: 15px;
+
+}
+footer{
+	background: #222;
+	color: #fff;
+	padding: 30px;
+	text-align: center;
+}
+#footer .footer-about-us {
+	border-right: 1px solid #fff;
+	padding:0px 15px 0px 0px;
+}
+#footer .footer-about-us a{
+	font-size: 35px;
+	color: #fff;
+}
+.mobile-menu-icon {
+	display: none;
+}
+.mobile-menu-icon a{
+	text-align: center;
+    border: 1px solid #fff;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    color: #fff;
+    width: 42px;
+}
+.mobile-menu-icon a .fa{
+	font-size: 24px;
+}
+.only-scoreupdate-mobile ul {
+	list-style: none;
+	padding: 0px 15px;
+}
+.only-scoreupdate-mobile ul li{
+	display: block;
+	margin-bottom: 10px;
+}
+.match_running_live_red{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: #fff;
+    background: red;
+    padding: 2px 8px;
+}
+.live-match-list.onlymobile{
+	display: none;
+}
+.table-bowleronly a, .table-batsmanonly a{
+	font-weight: bold;
+}
+.player-name-title {
+	margin-top: 15px !important;
+}
+.overdivider{
+    border-right: 1px solid #000;
+    height: 18px;
+    padding: 0px 4px;
+    margin-right: 8px;
+}
+.content-ipl2017 {
+	background: #fff;
+	padding: 10px;
+}
+.content-ipl2017 h1{
+	font-size: 25px;
+}
+.points-table {
+	background: #fff;
+	margin-top: 15px;
+}
+@media (max-width: 768px){
+	ul.mini-links2{
+		padding-left: 0px;
+	}
+	.paddingleft0{
+		padding-left: 15px;
+	}
+	.score-card{
+		min-height: 1px;
+	}
+	.live-match-list, .player-image-with-title{
+		display: none !important;
+	}
+	.live-match-list.onlymobile{
+		display: block !important;
+		padding: 5px;
+		margin-top: 10px;
+	}
+	.paddingright0{
+		padding-right: 15px;
+	}
+	.livescoreupddateadmin .only-scoreupdate {
+		display: none;
+	}
+	.only-scoreupdate-mobile {
+		display: block;
+	}
+	.mobile-menu-icon{
+		display: block;
+	}
+	.comman-menu{
+		display: none;
+	}
+	.comman-menu.active{
+		display: block;
+		float: none !important;
+	}
+	header .live-match-list .short-score{
+		padding: 8px 0px;
+		border-bottom:1px solid #000;
+	}
+	header .header .menu ul.comman-menu.active li{
+		display: block;
+		padding: 5px 0px;
+		text-align: center;
+	}
+	.venue-details{
+		display: none;
+	}
+	.only-mobile {
+		display:block; 
+	}
+	.only-desktop{
+		display: none;
+	}
+	ul.mini-links{
+		border: none;
+		padding-left: 15px;
+		margin-bottom: 15px;
+		background: #fcfcfc;
+	}
+	ul.mini-links li , ul.mini-links2 li{
+	    border: 1px solid #ddd;
+	    text-align: center;
+    padding: 10px;
+	}
+    
+	.header-section h1{
+		font-size: 17px;
+		font-weight: bold;
+	}
+}
